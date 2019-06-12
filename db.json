@@ -27,6 +27,13 @@
       "attention": false,
       "tech": "Sara Wilson",
       "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "message": "Changed NIC on server 007",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2019-06-12T18:34:33.724Z",
+      "id": 5
     }
   ],
   "techs": [
