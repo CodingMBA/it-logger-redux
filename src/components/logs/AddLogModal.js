@@ -7,7 +7,15 @@ function AddLogModal() {
   const [tech, setTech] = useState('');
 
   const onSubmit = () => {
-    console.log(message, attention, tech);
+    if (message === '' || tech === '') {
+      M.toast({ html: 'Please enter a message and tech' });
+    } else {
+      console.log(message, attention, tech);
+      // Clear Fields
+      setMessage('');
+      setTech('');
+      setAttention(false);
+    }
   };
 
   return (
